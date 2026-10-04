@@ -1,0 +1,8 @@
+Status   : Completed (early stopping)
+Model    : yolo11s.pt
+Epochs   : 71 / 80
+patience : 20
+Best     : epoch 51 (mAP50 84.13, mAP50-95 54.11)
+
+No improvement for 20 epochs after epoch 51, so Ultralytics stopped
+the run itself at epoch 71. No manual intervention.

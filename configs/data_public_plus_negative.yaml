@@ -1,0 +1,11 @@
+﻿path: "."
+
+train:
+  - train/images
+  - hard_negative/images
+
+val: valid/images
+test: test/images
+
+names:
+  0: cigarette

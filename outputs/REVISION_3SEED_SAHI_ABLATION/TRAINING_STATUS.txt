@@ -1,0 +1,9 @@
+Status   : Did not start (all 12 runs failed at epoch 0)
+
+In this first attempt the absolute paths in data.yaml pointed to the project's
+old location, so Ultralytics could not find the image lists and every run
+exited with an error within seconds (see the *.log files). The list files were
+rewritten for the current location (outputs/REVISION_3SEED_CONFIGS/*_FIXED) and
+the same 12 runs were redone from scratch under
+outputs/REVISION_3SEED_SAHI_ABLATION_FIXEDDATA, where all of them completed
+30 / 30.

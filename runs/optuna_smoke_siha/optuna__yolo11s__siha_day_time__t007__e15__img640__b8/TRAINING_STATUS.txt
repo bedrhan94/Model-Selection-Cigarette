@@ -1,0 +1,12 @@
+Status   : Stopped manually, not completed
+Model    : yolo11s.pt
+Epochs   : 4 / 15 (stopped after epoch 4)
+patience : 20
+Best     : epoch 2 (mAP50 73.20, mAP50-95 42.13)
+
+Training was stopped by hand before reaching the planned 15 epochs.
+results.csv contains every epoch up to that point. The weight files kept
+their optimizer state (weights are not included in this repo).
+
+This trial is recorded as FAIL in the Optuna study (study.db) and was not
+used for parameter selection. The search continued with t008.

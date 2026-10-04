@@ -1,0 +1,173 @@
+﻿[2026-06-24 15:48:30] ============================================================
+[2026-06-24 15:48:30] REVISION 3-SEED SAHI ABLATION - RESUME SAFE START
+[2026-06-24 15:48:30] Root    : <PROJECT_ROOT>
+[2026-06-24 15:48:30] Project : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA
+[2026-06-24 15:48:30] Epochs  : 30
+[2026-06-24 15:48:30] Batch   : 8
+[2026-06-24 15:48:30] Imgsz   : 640
+[2026-06-24 15:48:30] Seeds   : 42, 123, 2025
+[2026-06-24 15:48:30] ============================================================
+[2026-06-24 15:48:30] Tried to disable sleep/display timeout on AC power.
+[2026-06-24 15:48:30] 
+[2026-06-24 15:48:30] ------------------------------------------------------------
+[2026-06-24 15:48:30] RUN       : YOLO11m_full_frame_e30_b8_img640_seed42
+[2026-06-24 15:48:30] MODEL     : yolo11m.pt
+[2026-06-24 15:48:30] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+[2026-06-24 15:48:30] SEED      : 42
+[2026-06-24 15:48:30] STATUS    : new
+[2026-06-24 15:48:30] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11m_full_frame_e30_b8_img640_seed42
+[2026-06-24 15:48:30] ------------------------------------------------------------
+[2026-06-24 15:48:30] NEW: training will start from scratch.
+[2026-06-24 15:48:30] Command: yolo detect train model=yolo11m.pt data=outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=42 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11m_full_frame_e30_b8_img640_seed42 exist_ok=True
+[2026-06-25 00:45:23] STATUS AFTER RUN: complete
+[2026-06-25 00:45:23] COMPLETED: YOLO11m_full_frame_e30_b8_img640_seed42
+[2026-06-25 00:45:23] 
+[2026-06-25 00:45:23] ------------------------------------------------------------
+[2026-06-25 00:45:23] RUN       : YOLO11m_full_frame_e30_b8_img640_seed123
+[2026-06-25 00:45:23] MODEL     : yolo11m.pt
+[2026-06-25 00:45:23] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+[2026-06-25 00:45:23] SEED      : 123
+[2026-06-25 00:45:23] STATUS    : new
+[2026-06-25 00:45:23] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11m_full_frame_e30_b8_img640_seed123
+[2026-06-25 00:45:23] ------------------------------------------------------------
+[2026-06-25 00:45:23] NEW: training will start from scratch.
+[2026-06-25 00:45:23] Command: yolo detect train model=yolo11m.pt data=outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=123 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11m_full_frame_e30_b8_img640_seed123 exist_ok=True
+[2026-06-25 08:43:47] STATUS AFTER RUN: complete
+[2026-06-25 08:43:47] COMPLETED: YOLO11m_full_frame_e30_b8_img640_seed123
+[2026-06-25 08:43:47] 
+[2026-06-25 08:43:47] ------------------------------------------------------------
+[2026-06-25 08:43:47] RUN       : YOLO11m_full_frame_e30_b8_img640_seed2025
+[2026-06-25 08:43:47] MODEL     : yolo11m.pt
+[2026-06-25 08:43:47] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+[2026-06-25 08:43:47] SEED      : 2025
+[2026-06-25 08:43:47] STATUS    : new
+[2026-06-25 08:43:47] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11m_full_frame_e30_b8_img640_seed2025
+[2026-06-25 08:43:47] ------------------------------------------------------------
+[2026-06-25 08:43:47] NEW: training will start from scratch.
+[2026-06-25 08:43:47] Command: yolo detect train model=yolo11m.pt data=outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=2025 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11m_full_frame_e30_b8_img640_seed2025 exist_ok=True
+[2026-06-25 14:33:00] STATUS AFTER RUN: complete
+[2026-06-25 14:33:00] COMPLETED: YOLO11m_full_frame_e30_b8_img640_seed2025
+[2026-06-25 14:33:00] 
+[2026-06-25 14:33:00] ------------------------------------------------------------
+[2026-06-25 14:33:00] RUN       : YOLO11m_sahi_sliced_e30_b8_img640_seed42
+[2026-06-25 14:33:00] MODEL     : yolo11m.pt
+[2026-06-25 14:33:00] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+[2026-06-25 14:33:00] SEED      : 42
+[2026-06-25 14:33:00] STATUS    : new
+[2026-06-25 14:33:00] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11m_sahi_sliced_e30_b8_img640_seed42
+[2026-06-25 14:33:00] ------------------------------------------------------------
+[2026-06-25 14:33:00] NEW: training will start from scratch.
+[2026-06-25 14:33:00] Command: yolo detect train model=yolo11m.pt data=outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=42 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11m_sahi_sliced_e30_b8_img640_seed42 exist_ok=True
+[2026-06-26 06:40:26] STATUS AFTER RUN: complete
+[2026-06-26 06:40:26] COMPLETED: YOLO11m_sahi_sliced_e30_b8_img640_seed42
+[2026-06-26 06:40:26] 
+[2026-06-26 06:40:26] ------------------------------------------------------------
+[2026-06-26 06:40:26] RUN       : YOLO11m_sahi_sliced_e30_b8_img640_seed123
+[2026-06-26 06:40:26] MODEL     : yolo11m.pt
+[2026-06-26 06:40:26] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+[2026-06-26 06:40:26] SEED      : 123
+[2026-06-26 06:40:26] STATUS    : new
+[2026-06-26 06:40:26] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11m_sahi_sliced_e30_b8_img640_seed123
+[2026-06-26 06:40:26] ------------------------------------------------------------
+[2026-06-26 06:40:26] NEW: training will start from scratch.
+[2026-06-26 06:40:26] Command: yolo detect train model=yolo11m.pt data=outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=123 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11m_sahi_sliced_e30_b8_img640_seed123 exist_ok=True
+[2026-06-26 23:52:04] STATUS AFTER RUN: complete
+[2026-06-26 23:52:04] COMPLETED: YOLO11m_sahi_sliced_e30_b8_img640_seed123
+[2026-06-26 23:52:04] 
+[2026-06-26 23:52:04] ------------------------------------------------------------
+[2026-06-26 23:52:04] RUN       : YOLO11m_sahi_sliced_e30_b8_img640_seed2025
+[2026-06-26 23:52:04] MODEL     : yolo11m.pt
+[2026-06-26 23:52:04] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+[2026-06-26 23:52:04] SEED      : 2025
+[2026-06-26 23:52:04] STATUS    : new
+[2026-06-26 23:52:04] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11m_sahi_sliced_e30_b8_img640_seed2025
+[2026-06-26 23:52:04] ------------------------------------------------------------
+[2026-06-26 23:52:04] NEW: training will start from scratch.
+[2026-06-26 23:52:04] Command: yolo detect train model=yolo11m.pt data=outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=2025 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11m_sahi_sliced_e30_b8_img640_seed2025 exist_ok=True
+[2026-06-27 14:55:06] STATUS AFTER RUN: complete
+[2026-06-27 14:55:06] COMPLETED: YOLO11m_sahi_sliced_e30_b8_img640_seed2025
+[2026-06-27 14:55:06] 
+[2026-06-27 14:55:06] ------------------------------------------------------------
+[2026-06-27 14:55:06] RUN       : YOLO11s_full_frame_e30_b8_img640_seed42
+[2026-06-27 14:55:06] MODEL     : yolo11s.pt
+[2026-06-27 14:55:06] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+[2026-06-27 14:55:06] SEED      : 42
+[2026-06-27 14:55:06] STATUS    : new
+[2026-06-27 14:55:06] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11s_full_frame_e30_b8_img640_seed42
+[2026-06-27 14:55:06] ------------------------------------------------------------
+[2026-06-27 14:55:06] NEW: training will start from scratch.
+[2026-06-27 14:55:06] Command: yolo detect train model=yolo11s.pt data=outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=42 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11s_full_frame_e30_b8_img640_seed42 exist_ok=True
+[2026-06-27 20:49:34] STATUS AFTER RUN: complete
+[2026-06-27 20:49:34] COMPLETED: YOLO11s_full_frame_e30_b8_img640_seed42
+[2026-06-27 20:49:34] 
+[2026-06-27 20:49:34] ------------------------------------------------------------
+[2026-06-27 20:49:34] RUN       : YOLO11s_full_frame_e30_b8_img640_seed123
+[2026-06-27 20:49:34] MODEL     : yolo11s.pt
+[2026-06-27 20:49:34] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+[2026-06-27 20:49:34] SEED      : 123
+[2026-06-27 20:49:34] STATUS    : new
+[2026-06-27 20:49:34] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11s_full_frame_e30_b8_img640_seed123
+[2026-06-27 20:49:34] ------------------------------------------------------------
+[2026-06-27 20:49:34] NEW: training will start from scratch.
+[2026-06-27 20:49:34] Command: yolo detect train model=yolo11s.pt data=outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=123 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11s_full_frame_e30_b8_img640_seed123 exist_ok=True
+[2026-06-28 03:55:37] STATUS AFTER RUN: complete
+[2026-06-28 03:55:37] COMPLETED: YOLO11s_full_frame_e30_b8_img640_seed123
+[2026-06-28 03:55:37] 
+[2026-06-28 03:55:37] ------------------------------------------------------------
+[2026-06-28 03:55:37] RUN       : YOLO11s_full_frame_e30_b8_img640_seed2025
+[2026-06-28 03:55:37] MODEL     : yolo11s.pt
+[2026-06-28 03:55:37] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+[2026-06-28 03:55:37] SEED      : 2025
+[2026-06-28 03:55:37] STATUS    : new
+[2026-06-28 03:55:37] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11s_full_frame_e30_b8_img640_seed2025
+[2026-06-28 03:55:37] ------------------------------------------------------------
+[2026-06-28 03:55:37] NEW: training will start from scratch.
+[2026-06-28 03:55:37] Command: yolo detect train model=yolo11s.pt data=outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=2025 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11s_full_frame_e30_b8_img640_seed2025 exist_ok=True
+[2026-06-28 09:07:01] STATUS AFTER RUN: complete
+[2026-06-28 09:07:01] COMPLETED: YOLO11s_full_frame_e30_b8_img640_seed2025
+[2026-06-28 09:07:01] 
+[2026-06-28 09:07:01] ------------------------------------------------------------
+[2026-06-28 09:07:01] RUN       : YOLO11s_sahi_sliced_e30_b8_img640_seed42
+[2026-06-28 09:07:01] MODEL     : yolo11s.pt
+[2026-06-28 09:07:01] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+[2026-06-28 09:07:01] SEED      : 42
+[2026-06-28 09:07:01] STATUS    : new
+[2026-06-28 09:07:01] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11s_sahi_sliced_e30_b8_img640_seed42
+[2026-06-28 09:07:01] ------------------------------------------------------------
+[2026-06-28 09:07:01] NEW: training will start from scratch.
+[2026-06-28 09:07:01] Command: yolo detect train model=yolo11s.pt data=outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=42 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11s_sahi_sliced_e30_b8_img640_seed42 exist_ok=True
+[2026-06-28 23:07:46] STATUS AFTER RUN: complete
+[2026-06-28 23:07:46] COMPLETED: YOLO11s_sahi_sliced_e30_b8_img640_seed42
+[2026-06-28 23:07:46] 
+[2026-06-28 23:07:46] ------------------------------------------------------------
+[2026-06-28 23:07:46] RUN       : YOLO11s_sahi_sliced_e30_b8_img640_seed123
+[2026-06-28 23:07:46] MODEL     : yolo11s.pt
+[2026-06-28 23:07:46] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+[2026-06-28 23:07:46] SEED      : 123
+[2026-06-28 23:07:46] STATUS    : new
+[2026-06-28 23:07:46] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11s_sahi_sliced_e30_b8_img640_seed123
+[2026-06-28 23:07:46] ------------------------------------------------------------
+[2026-06-28 23:07:46] NEW: training will start from scratch.
+[2026-06-28 23:07:46] Command: yolo detect train model=yolo11s.pt data=outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=123 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11s_sahi_sliced_e30_b8_img640_seed123 exist_ok=True
+[2026-06-29 09:48:15] STATUS AFTER RUN: complete
+[2026-06-29 09:48:15] COMPLETED: YOLO11s_sahi_sliced_e30_b8_img640_seed123
+[2026-06-29 09:48:15] 
+[2026-06-29 09:48:15] ------------------------------------------------------------
+[2026-06-29 09:48:15] RUN       : YOLO11s_sahi_sliced_e30_b8_img640_seed2025
+[2026-06-29 09:48:15] MODEL     : yolo11s.pt
+[2026-06-29 09:48:15] DATA      : outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+[2026-06-29 09:48:15] SEED      : 2025
+[2026-06-29 09:48:15] STATUS    : new
+[2026-06-29 09:48:15] RUN_DIR   : <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA\YOLO11s_sahi_sliced_e30_b8_img640_seed2025
+[2026-06-29 09:48:15] ------------------------------------------------------------
+[2026-06-29 09:48:15] NEW: training will start from scratch.
+[2026-06-29 09:48:15] Command: yolo detect train model=yolo11s.pt data=outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml epochs=30 batch=8 imgsz=640 seed=2025 deterministic=True workers=0 device=0 save=True save_period=1 project=<PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA name=YOLO11s_sahi_sliced_e30_b8_img640_seed2025 exist_ok=True
+[2026-06-29 18:49:34] STATUS AFTER RUN: complete
+[2026-06-29 18:49:34] COMPLETED: YOLO11s_sahi_sliced_e30_b8_img640_seed2025
+[2026-06-29 18:49:34] 
+[2026-06-29 18:49:34] ============================================================
+[2026-06-29 18:49:34] SCRIPT FINISHED.
+[2026-06-29 18:49:34] Completed runs are skipped on rerun.
+[2026-06-29 18:49:34] Unfinished runs resume from weights\last.pt.
+[2026-06-29 18:49:34] Output folder: <PROJECT_ROOT>\outputs\REVISION_3SEED_SAHI_ABLATION_FIXEDDATA
+[2026-06-29 18:49:34] ============================================================

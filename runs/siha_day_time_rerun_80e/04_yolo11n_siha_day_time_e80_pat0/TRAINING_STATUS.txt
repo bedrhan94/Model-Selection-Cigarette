@@ -1,0 +1,11 @@
+Status   : Stopped manually, not completed
+Model    : yolo11n.pt
+Epochs   : 62 / 80 (stopped after epoch 62)
+patience : 0 (early stopping disabled)
+Best     : epoch 41 (mAP50 83.93, mAP50-95 53.77)
+
+Training was stopped by hand before reaching the planned 80 epochs.
+results.csv contains every epoch up to that point. results.png and the
+final validation plots, which are written only at the end of training,
+were not produced for this run, and the weight files kept their optimizer
+state (weights are not included in this repo).

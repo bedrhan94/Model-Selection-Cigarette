@@ -1,0 +1,40 @@
+{
+  "video": ".\\inputs_hourly_raw\\11\\11.mp4",
+  "fps": 30.0,
+  "total_frames": 1800,
+  "resolution": {
+    "W": 1920,
+    "H": 1080
+  },
+  "gt_smoke_frames": 119,
+  "pred_smoke_frames": 1502,
+  "gt_smoke_minutes": 0.0661111111111111,
+  "pred_smoke_minutes": 0.8344444444444445,
+  "TP_frames": 105,
+  "FP_frames": 1397,
+  "FN_frames": 14,
+  "TN_frames": 284,
+  "frame_precision": 0.06990679094540612,
+  "frame_recall": 0.8823529411764706,
+  "frame_f1": 0.1295496607032696,
+  "conf_thr": 0.1,
+  "iou_thr": 0.3,
+  "mean_iou_matched": 0.5913278589873461,
+  "median_iou_matched": 0.5955027974438277,
+  "AP@0.30": 0.05900874359979191,
+  "AP@0.50": 0.03169456709376128,
+  "FN_breakdown_counts": {
+    "FN_NO_PRED": 9,
+    "FN_LOW_CONF": 5,
+    "FN_LOW_IOU": 8,
+    "FN_FILTERED_OUT": 0
+  },
+  "FN_breakdown_pct": {
+    "FN_NO_PRED": 7.563025210084033,
+    "FN_LOW_CONF": 4.201680672268908,
+    "FN_LOW_IOU": 6.722689075630252,
+    "FN_FILTERED_OUT": 0.0
+  },
+  "covered_minutes": 0.058333333333333334,
+  "missed_minutes": 0.0077777777777777776
+}

@@ -1,0 +1,42 @@
+﻿
+Check  : full_frame_train
+Source : <PROJECT_ROOT>\scenario_splits\day_time\train.txt
+Output : <PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\full_frame_train_FIXED.txt
+OK: full_frame_train -> 23017 image paths written.
+
+Check  : full_frame_val
+Source : <PROJECT_ROOT>\scenario_splits\day_time\val.txt
+Output : <PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\full_frame_val_FIXED.txt
+OK: full_frame_val -> 2129 image paths written.
+
+Check  : full_frame_test
+Source : <PROJECT_ROOT>\scenario_splits\day_time\test.txt
+Output : <PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\full_frame_test_FIXED.txt
+OK: full_frame_test -> 1859 image paths written.
+
+FULL-FRAME YAML written:
+<PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\revision_full_frame_FIXED.yaml
+
+Check  : sahi_sliced_train
+Source : <PROJECT_ROOT>\SIHA_senario_splits\day_time\train.txt
+Output : <PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\sahi_sliced_train_FIXED.txt
+OK: sahi_sliced_train -> 67172 image paths written.
+
+Check  : sahi_sliced_val
+Source : <PROJECT_ROOT>\SIHA_senario_splits\day_time\val.txt
+Output : <PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\sahi_sliced_val_FIXED.txt
+OK: sahi_sliced_val -> 6600 image paths written.
+
+Check  : sahi_sliced_test
+Source : <PROJECT_ROOT>\SIHA_senario_splits\day_time\test.txt
+Output : <PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\sahi_sliced_test_FIXED.txt
+OK: sahi_sliced_test -> 5359 image paths written.
+
+SAHI YAML written:
+<PROJECT_ROOT>\outputs\REVISION_3SEED_CONFIGS\revision_sahi_sliced_FIXED.yaml
+
+FIXEDDATA runner created:
+<PROJECT_ROOT>\run_revision_3seed_sahi_ablation_RESUME_SAFE_FIXEDDATA.ps1
+
+NEXT, RUN THIS:
+powershell -ExecutionPolicy Bypass -File "<PROJECT_ROOT>\run_revision_3seed_sahi_ablation_RESUME_SAFE_FIXEDDATA.ps1"

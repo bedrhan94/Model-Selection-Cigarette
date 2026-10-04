@@ -1,0 +1,12 @@
+trial,state,model,objective,mAP50,mAP50-95,precision,recall,run
+0,COMPLETE,yolo11s,0.56698,0.84202,0.52733,0.80774,0.793,optuna__yolo11s__siha_day_time__t000__e15__img640__b8
+1,COMPLETE,yolo11m,0.61232,0.87246,0.57178,0.82821,0.81088,optuna__yolo11m__siha_day_time__t001__e15__img640__b8
+2,COMPLETE,yolo11s,0.55412,0.82948,0.51609,0.8179,0.76058,optuna__yolo11s__siha_day_time__t002__e15__img640__b8
+3,COMPLETE,yolo11s,0.57285,0.8625,0.53168,0.82926,0.82337,optuna__yolo11s__siha_day_time__t003__e15__img640__b8
+4,COMPLETE,yolo11m,0.45851,0.76006,0.42394,0.7379,0.69144,optuna__yolo11m__siha_day_time__t004__e15__img640__b8
+5,COMPLETE,yolo11m,0.58937,0.8733,0.54779,0.82457,0.83156,optuna__yolo11m__siha_day_time__t005__e15__img640__b8
+6,COMPLETE,yolo11s,0.58173,0.86492,0.54025,0.82051,0.82967,optuna__yolo11s__siha_day_time__t006__e15__img640__b8
+7,FAIL,yolo11s,,,,,,optuna__yolo11s__siha_day_time__t007__e15__img640__b8
+8,COMPLETE,yolo11s,0.56626,0.84349,0.52654,0.80895,0.79447,optuna__yolo11s__siha_day_time__t008__e15__img640__b8
+9,COMPLETE,yolo11m,0.61299,0.87153,0.5719,0.82226,0.82172,optuna__yolo11m__siha_day_time__t009__e15__img640__b8
+10,COMPLETE,yolo11s,0.55622,0.83468,0.51826,0.8174,0.75918,optuna__yolo11s__siha_day_time__t010__e15__img640__b8

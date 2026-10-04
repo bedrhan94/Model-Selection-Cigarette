@@ -1,0 +1,32 @@
+﻿project:
+  phase: P1_architecture_screening
+  dataset_tag: public
+  experiment_root: thesis_experiments/P1_architecture_screening
+
+train:
+  data_yaml: configs/data_public.yaml
+  epochs: 30
+  imgsz: 640
+  batch: 16
+  device: 0
+  workers: 4
+  seed: 42
+
+  extra_args:
+    - "patience=15"
+    - "cache=False"
+    - "cos_lr=True"
+    - "close_mosaic=10"
+
+models:
+  - yolov8n.pt
+  - yolov8s.pt
+  - yolov8m.pt
+  - yolo11n.pt
+  - yolo11s.pt
+  - yolo11m.pt
+
+export:
+  root: thesis_experiments/P1_architecture_screening
+  write_index_csv: true
+  index_csv: thesis_experiments/P1_architecture_screening/export_index.csv

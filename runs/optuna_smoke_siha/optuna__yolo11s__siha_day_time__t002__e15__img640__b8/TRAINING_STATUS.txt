@@ -1,0 +1,5 @@
+Status   : Completed
+Model    : yolo11s.pt
+Epochs   : 15 / 15
+patience : 20
+Best     : epoch 15 (mAP50 82.95, mAP50-95 51.61)

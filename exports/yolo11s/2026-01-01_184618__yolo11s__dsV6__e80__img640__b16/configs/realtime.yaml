@@ -1,0 +1,22 @@
+project:
+  name: cigarette_smokers
+  version: v12
+
+paths:
+  yolo_model: models/best.pt
+  encodings: data/encodings.pkl
+  db: data/smoking_system.db
+  photo_dir: outputs/photos
+  event_log: logs/events.jsonl
+  debug_frames_dir: logs/debug_frames
+
+thresholds:
+  yolo_conf: 0.55
+  yolo_iou: 0.45
+  arc_sim: 0.45
+  overlap_ioa: 0.20
+  min_face_px: 40
+
+runtime:
+  host: 0.0.0.0
+  port: 5000

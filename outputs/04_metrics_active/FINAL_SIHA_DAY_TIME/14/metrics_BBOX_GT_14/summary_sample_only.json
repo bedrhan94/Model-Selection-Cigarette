@@ -1,0 +1,22 @@
+{
+  "mode": "sample_only_bbox_eval",
+  "hour": "14",
+  "gt_csv": "<PROJECT_ROOT>\\outputs\\02_gt_csv\\FINAL_SIHA_DAY_TIME\\14\\gt_14_final.csv",
+  "pred_jsonl": "<PROJECT_ROOT>\\outputs\\03_predictions_jsonl\\FINAL_SIHA_DAY_TIME\\14\\pred_14.jsonl",
+  "conf_thr": 0.1,
+  "iou_thr": 0.3,
+  "labeled_frames": 120,
+  "labeled_positive_frames": 114,
+  "labeled_negative_frames": 6,
+  "TP_boxes": 21,
+  "FP_boxes": 61,
+  "FN_boxes": 93,
+  "box_precision": 0.25609756097560976,
+  "box_recall": 0.18421052631578946,
+  "box_f1": 0.21428571428571425,
+  "matched_iou_mean": 0.6238083952445338,
+  "matched_iou_median": 0.7078265947660424,
+  "positive_frame_tp": 21,
+  "positive_frame_fn": 93,
+  "positive_frame_recall": 0.18421052631578946
+}

@@ -1,0 +1,6 @@
+path: <PROJECT_ROOT>/SIHA_data_mine/night_time
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: cigarette

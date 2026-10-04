@@ -1,0 +1,7 @@
+path: <PROJECT_ROOT>
+train: <PROJECT_ROOT>\scenario_splits\day_time\train.txt
+val: <PROJECT_ROOT>\scenario_splits\day_time\val.txt
+test: <PROJECT_ROOT>\scenario_splits\day_time\test.txt
+
+names:
+  0: smoking

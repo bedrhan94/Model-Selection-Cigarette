@@ -1,0 +1,11 @@
+Status   : Completed (early stopping)
+Model    : yolo11m.pt
+Epochs   : 48 / 80
+patience : 30
+Best     : epoch 18 (mAP50 87.53, mAP50-95 57.94)
+
+No improvement for 30 epochs after epoch 18, so Ultralytics stopped
+the run itself at epoch 48. No manual intervention.
+
+The run was interrupted once and resumed from weights/last.pt (see the
+resume entry in args.yaml). The final model is this run's best.pt.

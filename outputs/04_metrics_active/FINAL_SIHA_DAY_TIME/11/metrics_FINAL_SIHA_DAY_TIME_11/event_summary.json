@@ -1,0 +1,10 @@
+{
+  "pred_event_count": 7,
+  "gt_event_count": 1,
+  "pred_total_duration_s": 55.03333333333334,
+  "gt_total_duration_s": 60.0,
+  "event_confirm_frames": 3,
+  "event_stop_miss_frames": 8,
+  "event_min_dur_s": 0.8,
+  "event_db": "outputs\\04_metrics_active\\FINAL_SIHA_DAY_TIME\\11\\metrics_FINAL_SIHA_DAY_TIME_11\\metrics_events.db"
+}

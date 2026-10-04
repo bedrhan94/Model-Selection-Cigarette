@@ -1,0 +1,13 @@
+﻿MODEL CARD
+Timestamp: 2026-01-01_170128
+ModelFamily: yolo11n
+BaseModel: yolo11n.pt
+RunName: yolo11n__dsV6__e80__img640__b16
+DatasetTag: dsV6
+
+Train:
+- epochs=80, imgsz=640, batch=16, device=0, workers=4, seed=42
+- extra_args: patience=20, cache=False, cos_lr=True, close_mosaic=10
+
+RunDir: .\runs\yolo11n__dsV6__e80__img640__b16
+ExportDir: .\exports\yolo11n\2026-01-01_170128__yolo11n__dsV6__e80__img640__b16

@@ -1,0 +1,17 @@
+﻿path: "."
+
+train:
+  - train/images
+  - hard_negative/images
+  - data_mine/images/train
+
+val:
+  - valid/images
+  - data_mine/images/val
+
+test:
+  - test/images
+  - data_mine/images/test
+
+names:
+  0: cigarette

@@ -1,0 +1,5 @@
+Status   : Completed
+Model    : rtdetr-l.pt
+Epochs   : 30 / 30
+patience : 100
+Best     : epoch 15 (mAP50 84.34, mAP50-95 53.49)

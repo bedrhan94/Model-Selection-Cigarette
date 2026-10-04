@@ -1,0 +1,41 @@
+{
+  "best_value": 0.6129859999999999,
+  "best_params": {
+    "model": "yolo11m.pt",
+    "optimizer": "SGD",
+    "lr0": 0.00014982086432155476,
+    "lrf": 0.33262108266613327,
+    "momentum": 0.9755321642996927,
+    "weight_decay": 0.0009777718780862648,
+    "warmup_epochs": 1.5230688458668533,
+    "warmup_momentum": 0.6341852399022343,
+    "warmup_bias_lr": 0.1368466053024314,
+    "box": 7.52121994991681,
+    "cls": 0.22695544052492928,
+    "dfl": 1.2427653651669053,
+    "hsv_h": 0.0017194260557609198,
+    "hsv_s": 0.8183883618709039,
+    "hsv_v": 0.23290198344001523,
+    "degrees": 5.300178274831856,
+    "translate": 0.04675666141341164,
+    "scale": 0.46003401058890536,
+    "shear": 2.1868411173731186,
+    "perspective": 0.00018485445552552705,
+    "flipud": 0.19391692555291173,
+    "fliplr": 0.6100531293444458,
+    "mosaic": 0.9394989415641891,
+    "mixup": 0.2237068376069122,
+    "copy_paste": 0.11957999576221703,
+    "close_mosaic": 19
+  },
+  "best_metrics": {
+    "map50_95": 0.5719,
+    "map50": 0.87153,
+    "recall": 0.82172,
+    "precision": 0.82226
+  },
+  "best_run_dir": "<PROJECT_ROOT>\\runs\\optuna_smoke_siha\\optuna__yolo11m__siha_day_time__t009__e15__img640__b8",
+  "seconds_total": 28509.048372745514,
+  "study_db": "<PROJECT_ROOT>\\runs\\optuna_smoke_siha\\study.db",
+  "study_name": "optuna_smoke_siha_ms"
+}

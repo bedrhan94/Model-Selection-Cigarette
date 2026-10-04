@@ -1,0 +1,30 @@
+{
+  "val": {
+    "P": 81.68,
+    "R": 82.56,
+    "mAP50": 87.53,
+    "mAP50-95": 57.95,
+    "F1": 82.12,
+    "images": null,
+    "speed_ms": {
+      "preprocess": 0.17,
+      "inference": 3.77,
+      "loss": 0.0,
+      "postprocess": 0.47
+    }
+  },
+  "test": {
+    "P": 85.27,
+    "R": 80.21,
+    "mAP50": 87.46,
+    "mAP50-95": 56.75,
+    "F1": 82.66,
+    "images": null,
+    "speed_ms": {
+      "preprocess": 0.17,
+      "inference": 3.79,
+      "loss": 0.0,
+      "postprocess": 0.49
+    }
+  }
+}

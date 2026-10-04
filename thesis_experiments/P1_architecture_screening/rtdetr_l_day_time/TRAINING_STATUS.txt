@@ -1,0 +1,5 @@
+Status   : Completed
+Model    : rtdetr-l.pt
+Epochs   : 30 / 30
+patience : 0 (early stopping disabled)
+Best     : epoch 25 (mAP50 77.76, mAP50-95 47.32)

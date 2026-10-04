@@ -1,0 +1,40 @@
+{
+  "video": ".\\inputs_hourly_raw\\10\\10.mp4",
+  "fps": 30.0,
+  "total_frames": 1800,
+  "resolution": {
+    "W": 1920,
+    "H": 1080
+  },
+  "gt_smoke_frames": 1800,
+  "pred_smoke_frames": 1242,
+  "gt_smoke_minutes": 1.0,
+  "pred_smoke_minutes": 0.69,
+  "TP_frames": 1242,
+  "FP_frames": 0,
+  "FN_frames": 558,
+  "TN_frames": 0,
+  "frame_precision": 1.0,
+  "frame_recall": 0.69,
+  "frame_f1": 0.8165680473372781,
+  "conf_thr": 0.1,
+  "iou_thr": 0.3,
+  "mean_iou_matched": NaN,
+  "median_iou_matched": NaN,
+  "AP@0.30": NaN,
+  "AP@0.50": NaN,
+  "FN_breakdown_counts": {
+    "FN_NO_PRED": 0,
+    "FN_LOW_CONF": 0,
+    "FN_LOW_IOU": 0,
+    "FN_FILTERED_OUT": 0
+  },
+  "FN_breakdown_pct": {
+    "FN_NO_PRED": 0.0,
+    "FN_LOW_CONF": 0.0,
+    "FN_LOW_IOU": 0.0,
+    "FN_FILTERED_OUT": 0.0
+  },
+  "covered_minutes": 0.69,
+  "missed_minutes": 0.31
+}

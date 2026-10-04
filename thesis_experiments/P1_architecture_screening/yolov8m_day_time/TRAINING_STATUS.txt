@@ -1,0 +1,5 @@
+Status   : Completed
+Model    : yolov8m.pt
+Epochs   : 30 / 30
+patience : 5
+Best     : epoch 26 (mAP50 79.77, mAP50-95 50.41)

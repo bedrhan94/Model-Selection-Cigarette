@@ -1,0 +1,5 @@
+model,mode,P_mean,P_std,R_mean,R_std,mAP50_mean,mAP50_std,mAP5095_mean,mAP5095_std
+YOLO11m,full_frame,79.88,1.00,73.45,0.91,79.88,0.16,50.41,0.07
+YOLO11m,sahi_sliced,80.98,0.93,81.50,0.59,86.35,0.33,57.44,0.40
+YOLO11s,full_frame,79.05,1.03,72.65,0.66,78.99,0.22,49.04,0.27
+YOLO11s,sahi_sliced,79.80,0.51,80.98,0.63,85.42,0.26,55.74,0.14

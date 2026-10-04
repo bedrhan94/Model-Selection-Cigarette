@@ -1,0 +1,10 @@
+{
+  "pred_event_count": 16,
+  "gt_event_count": 0,
+  "pred_total_duration_s": 152.16000000000003,
+  "gt_total_duration_s": 0.0,
+  "event_confirm_frames": 3,
+  "event_stop_miss_frames": 8,
+  "event_min_dur_s": 0.8,
+  "event_db": "outputs\\04_metrics_active\\FALSE_POSITIVE_AUDIT\\13_30\\metrics_FP_13_30_tuned\\metrics_events.db"
+}
